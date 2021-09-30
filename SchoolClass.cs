@@ -21,22 +21,22 @@ namespace dz4
                 Room [index] = value;
             }
         }
-        public Learner this[string  name] 
-        {
-           get 
-            {
+       // public Learner this[string  name] 
+       // {
+        //   get 
+         //   {
 
-                foreach (var item in Room)
-                { 
-                    if(item.Name == name)
-                    return item ;
-                }
-            }
+          //      foreach (var item in Room)
+          //      { 
+           //         if(item.Name == name)
+           //         return item ;
+           //     }
+          //  }
            // set
            // {
            //     Room ["name"] = value;
            // }
-        }
+        //}
 
 
 
