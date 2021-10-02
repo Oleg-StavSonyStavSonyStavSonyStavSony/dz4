@@ -10,7 +10,7 @@ namespace dz4
         public int Years { get; set; } 
         public override string ToString()
         {
-            return $"LastName: {LastName}, Name: {Name}, LastName: {LastName}, Years: {Years}";
+            return $" Name: {Name}, LastName: {LastName}, MiddleName: {MiddleName}, Years: {Years}";
         } 
     }
 }
