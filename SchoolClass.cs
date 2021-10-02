@@ -21,24 +21,18 @@ namespace dz4
                 Room [index] = value;
             }
         }
-       // public Learner this[string  name] 
-       // {
-        //   get 
-         //   {
-
-          //      foreach (var item in Room)
-          //      { 
-           //         if(item.Name == name)
-           //         return item ;
-           //     }
-          //  }
-           // set
-           // {
-           //     Room ["name"] = value;
-           // }
-        //}
-
-
-
+        public Learner this[string  name] 
+        {
+             get  {   
+                        for (int i = 0; i < Room.Length; i++)
+                        {
+                            if(Room[i].Name == name){
+                               Console.WriteLine(Room[i]);
+                            }
+                        }
+                        return new Learner {Name = "end", LastName = "end", MiddleName = "end", Years = 0};
+                   }
+        }
     }
+
 }
