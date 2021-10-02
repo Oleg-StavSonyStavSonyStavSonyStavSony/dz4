@@ -17,7 +17,7 @@ namespace dz4
          
 
             Console.WriteLine(classs[0]);
-            Console.WriteLine(classs["Ivan"]);
+            //Console.WriteLine(classs["Ivan"]);
 
         }
     }
